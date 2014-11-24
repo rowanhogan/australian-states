@@ -1,0 +1,31 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 100%;
+  font-family: Georgia, serif;
+}
+
+.map {
+  width: 100%;
+  height: 100%;
+  height: 100vh;
+  font-family: inherit;
+  font-size: inherit;
+  background: transparent;
+}
+
+.leaflet-tile-pane { opacity: .15; }
+
+
+.leaflet-bar {
+  -webkit-user-select: none;
+  -moz-user-select: -moz-none;
+  -moz-user-select: none;
+  user-select: none;
+  border-radius: 2px;
+  box-shadow: 0 0 4px rgba(0,0,0,.5);
+}
